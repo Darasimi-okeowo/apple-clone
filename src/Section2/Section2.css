@@ -1,0 +1,58 @@
+.section2{
+    height: 37rem;
+    margin-top: .8rem;
+    background: url(./pexels-thirdman-5612324.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: .6rem solid white;
+}
+
+.section2{
+    border-top: none;
+}
+
+.title2{
+    color: white;
+    text-align: center;
+    padding: 5.5rem;
+}
+
+.title2 h2{
+    font-size: 5.6rem;
+    line-height: 1.071423;
+    letter-spacing: -.005rem;
+}
+
+.title2 h3{
+    font-size: 2.65rem;
+    margin-top: .6rem;
+    letter-spacing: .008rem;
+    font-weight: 400;
+}
+
+.title2 p{
+    font-size: 1.7rem;
+    color: rgb(202, 192, 192);
+    margin-top: .68rem;
+}
+
+.link2{
+    text-align: center;
+
+}
+
+.link2 p{
+    color: #66bbff;
+    display: inline-block;
+    font-size: 2.1rem;
+    cursor: pointer;
+}
+
+.link2 p:nth-child(2){
+    margin-left: 2.6rem;
+}
+
+.link2 p:hover{
+    border-bottom: 2px solid #66bbff;
+}
