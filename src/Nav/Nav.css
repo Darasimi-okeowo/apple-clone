@@ -1,0 +1,33 @@
+.nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1400;
+    background-color: #888;
+    backdrop-filter: blur(2rem);
+    color: white;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+li{
+    list-style: none;
+    font-size: smaller;
+    padding-right: 3rem;
+    transition: opacity .5s;
+}
+
+li:hover{
+    opacity: .7;
+}
+
+.search, .apple, .product{
+    font-size: x-large;
+}
