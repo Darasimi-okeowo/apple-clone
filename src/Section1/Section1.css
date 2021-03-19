@@ -1,58 +1,89 @@
-.section{
-    height: 37rem;
-    margin-top: 3.8rem;
-    background: url(./pexels-torsten-dettlaff-3571093.jpg);
+.iphone-11-pro{
+    background: url('./iphone_11_pro_large.jpg'); 
+    margin-top: 4.4rem;
+}
+
+.hero{
+    height: 69.2rem;
     background-size: auto 73.6rem;
     background-position: center;
     background-repeat: no-repeat;
-    border-top: .6rem solid white;
+    border-top: .6rem solid #fff;
+    border-bottom: .6rem solid #fff;
 }
 
-.section{
+.iphone-11-pro{
     border-top: none;
 }
 
 .title{
-    color: white;
+    color: #fff;
     text-align: center;
-    padding: 5.5rem;
+    padding-top: 5.5rem;
 }
 
-.title h2{
+.title-heading{
     font-size: 5.6rem;
-    line-height: 1.071423;
+    line-height: 1.07143;
     letter-spacing: -.005rem;
 }
 
-.title h3{
+.title-sub-heading{
     font-size: 2.65rem;
     margin-top: .6rem;
     letter-spacing: .008rem;
     font-weight: 400;
 }
 
-.title p{
+.title-price{
     font-size: 1.7rem;
-    color: rgb(202, 192, 192);
+    color: #888;
     margin-top: .68rem;
 }
 
-.link{
+.cta{
     text-align: center;
-
 }
 
-.link p{
+.cta-link{
     color: #66bbff;
-    display: inline-block;
     font-size: 2.1rem;
+    display: inline-block;
     cursor: pointer;
 }
 
-.link p:nth-child(2){
+.cta-link:nth-child(2){
     margin-left: 2.6rem;
 }
 
-.link p:hover{
+.cta-link:hover{
     border-bottom: 2px solid #66bbff;
+}
+
+@media screen and (max-width: 1068px){
+    .iphone-11-pro{
+        background: url('./iphone_11_pro_medium.jpg');
+    }
+    .hero{
+        height: 65rem;
+        background-size: auto 69.8rem;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+    }
+    .title-heading{
+        font-size: 4.4rem;
+    }
+    .title-sub-heading{
+        font-size: 2.4rem;
+    }
+    .cta-link:nth-child(2){
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .iphone-11-pro{
+        margin-top: 4.8rem;
+    }
+    
 }
