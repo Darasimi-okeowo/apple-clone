@@ -87,3 +87,27 @@
     }
     
 }
+
+@media screen and (max-width: 735px){
+    .iphone-11-pro{
+        background: url('./iphone_11_pro_small.jpg');
+    }
+    .title{
+        padding: 3.7rem;
+    }
+    .title-heading{
+        font-size: 3.2rem;
+    }
+    .title-sub-heading{
+        font-size: 1.9rem;
+    }
+    .title-price{
+        font-size: 1.4rem;
+    }
+    .cta{
+        margin-top: .7rem;
+    }
+    .cta-link{
+        font-size: 1.9rem;
+    }
+}

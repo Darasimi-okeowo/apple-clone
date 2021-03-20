@@ -44,3 +44,32 @@
     }
 }
 
+@media screen and (max-width: 735px){
+    .iphone-11{
+        background: url('./iphone_11_small.jpg');
+    }
+    .hero{
+        height: 50rem;
+        background-size: auto 54.8rem;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+    }
+    .title{
+        padding: 3.7rem;
+    }
+    .title-heading{
+        font-size: 3.2rem;
+    }
+    .title-sub-heading{
+        font-size: 1.9rem;
+    }
+    .title-price{
+        font-size: 1.4rem;
+    }
+    .cta{
+        margin-top: .7rem;
+    }
+    .cta-link{
+        font-size: 1.9rem;
+    }
+}

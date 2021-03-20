@@ -46,3 +46,30 @@
     }
 }
 
+@media screen and (max-width: 735px){
+    .watch{
+        background: url('./watch_small.jpg');
+    }
+    .title{
+        padding: 3.7rem;
+    }
+    .title-heading{
+        font-size: 3.2rem;
+    }
+    .title-sub-heading{
+        font-size: 1.9rem;
+    }
+    .title-heading-watch{
+        margin-top: -.5rem;
+        margin-bottom: 0;
+    }
+    .title-price{
+        font-size: 1.4rem;
+    }
+    .cta{
+        margin-top: .7rem;
+    }
+    .cta-link{
+        font-size: 1.9rem;
+    }
+}
