@@ -71,7 +71,7 @@ header{
         cursor: pointer;
         border: 2px solid red;
     }
-    /* .line{
+    .line{
         position: absolute;
         width: 1.7rem;
         height: 1px;
@@ -82,16 +82,16 @@ header{
         margin-top: 3px;
     }
     .line-bottom{
-        margin-top: -.4rem;
+        margin-top: -.7rem;
     }
-    .active .line-top{
+    .active-top{
         margin-top: 0;
         transform: rotate(45deg);
         transition: transform .3192s .1s cubic-bezier(0.04, 0.04, 0.12, 0.96);
     }
-    .active .line-bottom{
+    .active-bottom{
         margin-top: 0;
         transform: rotate(-45deg);
         transition: transform .3192s .1s cubic-bezier(0.04, 0.04, 0.12, 0.96);
-    } */
+    }
 }

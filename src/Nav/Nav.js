@@ -22,7 +22,19 @@ const Nav = () => {
                     <ul className='nav-list nav-list-mobile'>
                         <li className='nav-item'>
                             <div onClick={togglehandler} className={`mobile-menu `}>
-                                <span className={toggle ? <ImCross /> : <CgMathEqual />}><ImCross /></span>
+                                {/* No, you can't do this, you went to school na !!! */}
+                                {/* <span className={toggle ? <ImCross /> : <CgMathEqual />}><ImCross /></span> */}
+                                {/* I think you want to achieve this */}
+                                {/* {toggle && <span className=''><ImCross /></span>} */}
+                                {/* {!toggle && <span className=''><ImCross /></span>} */}
+                                {/* above is also the same as  */}
+                                {/* {toggle 
+                                    ? <span className=''><ImCross /></span> 
+                                    : <span className=''><ImCross /></span>
+                                } */}
+                                {/* Using class to achieve it would look like this */}
+                                <span className={`line line-top ${toggle && 'active-top'}`}></span>
+                                <span className={`line line-bottom ${toggle && 'active-bottom'}`}></span>
                             </div>
                         </li>
                         <li className='nav-item nav-link nav-link-apple'><AiFillApple /></li>
