@@ -3,13 +3,15 @@ import './Nav.css'
 import { AiFillApple } from 'react-icons/ai';
 import { AiOutlineSearch } from 'react-icons/ai';
 import { BsFillBagFill } from 'react-icons/bs';
+import { ImCross } from 'react-icons/im';
+import { CgMathEqual } from 'react-icons/cg';
 
 
 const Nav = () => {
-    const[toggle,setToggle] = useState(true);
+
+    const[toggle,setToggle] = useState(false);
 
     const togglehandler = () => {
-        console.log(!toggle)
         setToggle(!toggle)
     }
 
@@ -19,9 +21,8 @@ const Nav = () => {
                 <div className='nav'>
                     <ul className='nav-list nav-list-mobile'>
                         <li className='nav-item'>
-                            <div onClick={togglehandler} className='mobile-menu'>
-                                <span className='line line-top'></span>
-                                <span className='line line-bottom'></span>
+                            <div onClick={togglehandler} className={`mobile-menu `}>
+                                <span className={toggle ? <ImCross /> : <CgMathEqual />}><ImCross /></span>
                             </div>
                         </li>
                         <li className='nav-item nav-link nav-link-apple'><AiFillApple /></li>
@@ -38,7 +39,7 @@ const Nav = () => {
                         <li className='nav-item nav-link'>Support</li>
                         <li className='nav-item nav-link nav-link nav-link-search'><AiOutlineSearch /></li>
                         <li className='nav-item nav-item-hidden nav-link nav-link-bag'><BsFillBagFill /></li>
-                    </ul>
+                    </ul>      
                 </div>
             </div>
         </header>
