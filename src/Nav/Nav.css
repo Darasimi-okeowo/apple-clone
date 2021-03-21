@@ -8,6 +8,7 @@ header{
     backdrop-filter: blur(2rem);
 }
 
+
 .nav-list{
     display: flex;
     justify-content: space-between;
@@ -17,12 +18,14 @@ header{
     margin: 0 -1rem;
 }
 
+
 .nav-list-mobile{
     display: none;
 }
 
+
 .nav-link{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #fff;
     padding: 1rem;
     transition: opacity .5s;
@@ -31,27 +34,27 @@ header{
 .nav-link:hover{
     opacity: .7;
 }
-/*
+
 .nav-link-apple{
-    font-size: 1.5rem;
+    font-size: 1.4rem ;
     color: #fff;
     padding:0 1rem;
     transition: opacity .5s;
 }
 
 .nav-link-search{
-    font-size: 1.5rem;
+    font-size: 1.4rem ;
     color: #fff;
     padding:0 1rem;
     transition: opacity .5s;
 }
 
 .nav-link-bag{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #fff;
     padding:0 1rem;
     transition: opacity .5s; 
-}*/
+}
 
 @media screen and (max-width: 767px){
     header{
@@ -115,17 +118,15 @@ header{
         height: 100%;
         background-color: #000;
     }
-    /* .nav-link-apple{
+    .nav-link-apple{
         position: relative;
         z-index: 1500;
-        width: 1.8rem;
-        height: 4.8rem;
+        font-size: 1.3rem;
     }
     .nav-link-bag{
-        width: 1.6rem;
-        height: 4.8rem;
+        font-size: 1.3rem;
         transition: opacity .3s;
-    } */
+    }
     .nav{
         position: relative;
     }
